@@ -28,7 +28,7 @@ body {
 /*Este es un id único en el HTML, representado por #nombre*/
 /*Este color está declarado en #Hex*/
 #color1 {
-    background-image: url(media/campeones.png);
+    background-image: url(/media/campeones.png);
     border-radius: 20px;
 }
 
