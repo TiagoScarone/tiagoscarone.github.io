@@ -14,7 +14,7 @@
 
 body {
     /*Declaración de tipografía*/
-    font-family: serif;
+    font-family: 'Poppins', sans-serif;
     /*Declaración de peso de Tipografía*/
     font-weight: 200;
     /*Declaración de color de fondo del body*/
@@ -141,6 +141,6 @@ nav{position:absolute;top:0;width:100%; height: 70px;}
 .colores{display:flex;flex-flow:row nowrap;justify-content:center;align-items:center}
 .color{width: 100%;height:200px;display:flex;flex-flow:row nowrap;justify-content:center;align-items:flex-start}
 h1{margin:5% 5% 2% 5%;font-family: 'Poppins', sans-serif; font-weight: 600;}
-p{margin:0% 5% 5% 5%;font-family: 'Poppins', sans-serif; font-weight: 100;}
+p{margin:0% 5% 5% 5%;font-family: 'Poppins', sans-serif; font-weight: 300;}
 .icon{width: 33%;}@media only screen and (max-width:600px)
 {nav a{display:none}}
