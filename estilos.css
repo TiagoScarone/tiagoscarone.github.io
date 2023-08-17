@@ -2,15 +2,15 @@
 /*Los comentarios de CSS no se renderizan en la página*/
 /*Todas las declaraciones de estilo se encuentran en el CSS, el HTML es para contenido únicamente*/
 
+/*Importar tipografía de google fonts vía @import (sin etiquetas <style>)*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:wght@800&family=Space+Grotesk:wght@400;500&display=swap');
+/*Esto me permite utilizar la tipografía en todo el contenido de body. Como standard vamos a usar la 100*/
+
 /*Reseteo de márgenes de todos los elementos para todos los navegadores*/
 * {
     padding: 0px;
     margin: 0px;
 }
-
-/*Importar tipografía de google fonts vía @import (sin etiquetas <style>)*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
-/*Esto me permite utilizar la tipografía en todo el contenido de body. Como standard vamos a usar la 100*/
 
 body {
     /*Declaración de tipografía*/
@@ -46,9 +46,9 @@ nav a{
     /*Decoración de texto: subrayado | tachado | etc.*/
     text-decoration: none;
     /*Tipografía*/
-    font-family: serif;
+    font-family: 'Poppins', sans-serif;
     /*Peso de la tipografía (tiene que estar linkeada la variable)*/
-    font-weight: 700;
+    font-weight: 600;
     /*Espaciado interno*/
     padding: 25px 60px 0px;
     /*Tiempo de transición animaciones de hover (mirar abajo)*/
@@ -117,8 +117,10 @@ nav a:hover{
     border-radius: 5px;
     /*Tamaño de fuente*/
     font-size: 0.8rem;
-    /*PEso de fuente*/
-    font-weight: 400;
+    /*Tipografía*/
+    font-family: 'Poppins', sans-serif;
+    /*Peso de la tipografía (tiene que estar linkeada la variable)*/
+    font-weight: 600;
     /*Espaciado interno*/
     padding: 10px 20px;
     /*Cambios al hover por tiempo (1s)*/
@@ -138,7 +140,7 @@ nav a:hover{
 nav{position:absolute;top:0;width:100%; height: 70px;}
 .colores{display:flex;flex-flow:row nowrap;justify-content:center;align-items:center}
 .color{width: 100%;height:200px;display:flex;flex-flow:row nowrap;justify-content:center;align-items:flex-start}
-h1{margin:5% 5% 2% 5%; font-family:serif;}
-p{margin:0% 5% 5% 5%;font-weight: 10;font-family:serif;}
+h1{margin:5% 5% 2% 5%;font-family: 'Poppins', sans-serif; font-weight: 600;}
+p{margin:0% 5% 5% 5%;font-family: 'Poppins', sans-serif; font-weight: 100;}
 .icon{width: 33%;}@media only screen and (max-width:600px)
 {nav a{display:none}}
